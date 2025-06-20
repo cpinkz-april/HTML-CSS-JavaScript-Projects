@@ -1,0 +1,28 @@
+body {
+    background-color: lightgrey;
+}
+div {
+    background-color: white;
+    border: 15px;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+h1 {
+    background-color: #1E90FF;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+footer {
+    background-color: #1E90FF;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+img {
+    width: 20%;
+    height: 20%;
+}
