@@ -8,3 +8,6 @@
 
 ## 3. CSS Flag of Laos
    ![Screenshot 2025-06-22 084939](https://github.com/user-attachments/assets/e47c8174-ca43-4e96-8d94-87c8fa388c9c)
+
+## 4. Pricing Table
+   ![Screenshot 2025-06-26 222913](https://github.com/user-attachments/assets/3b1ba16f-845e-466f-9d81-fe393c0835a6)
