@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+p {
+    background-color: lightgrey;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
