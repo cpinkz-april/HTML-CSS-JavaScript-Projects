@@ -19,7 +19,9 @@
 **Idea:** Display a series of multiple-choice questions one at a time.
 
 **Features:**
-<ul>Next Question button</ul>
-<ul>Keep score</ul>
-<ul>Display final score at the end</ul>
+<ul>
+   <li>Next Question button</li>
+   <li>Keep score</li>
+   <li>Display final score at the end</li>
+</ul>
 
