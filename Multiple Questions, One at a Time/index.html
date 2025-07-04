@@ -2,30 +2,45 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Yes/No Quiz</title>
+<title>Multiple Questions, One at a Time</title>
+<script src="index.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <h1>Yes/No Quiz</h1>
-    <p>Idea: Ask a single yes/no question. User clicks Yes or No. JavaScript checks the answer.</p>
+    <h1>Quizzes: Multiple Questions, One at a Time</h1>
+    <p>Idea: Display a series of multiple-choice questions one at a time.</p>
     <div id="question">
-        1. What does "CPU" stand for?<br>
-        Answer: Central Processing Unit
+        <b>1. What does "CPU" stand for?</b><br>
+           A. Central Processing Unit<br>
+           B. Central Programming Unit<br>
+           C. Computer Personal Unit 
     </div>
-    <br>
-    <button onclick="getAnswerYes()">Yes</button>&nbsp;&nbsp;<button onclick="getAnswerNo()">No</button>
 
-    <script>
-        function getAnswerYes() {
-            let answer = document.getElementById("question");
-            answer.textContent = "Correct";
-        }
-        function getAnswerNo() {
-            let answer = document.getElementById("question");
-            answer.textContent = "Incorrect";
-        }
-    </script>
+    <br>
+    <button onclick="getAnswerA()">A</button>&nbsp;&nbsp;<button onclick="getAnswerB()">B</button>&nbsp;&nbsp;<button onclick="getAnswerC()">C</button>
+
+    <br><br>
+    <div id="question2">
+        <b>2. Which of the following is an example of an operating system?</b><br>
+           A. Microsoft Word<br>
+           B. Google Chrome<br>
+           C. Windows 10
+    </div>
+
+    <br>
+    <button onclick="getAnswer2A()">A</button>&nbsp;&nbsp;<button onclick="getAnswer2B()">B</button>&nbsp;&nbsp;<button onclick="getAnswer2C()">C</button>
+
+    <br><br>
+    <div id="question3">
+        <b>3. What is the main function of RAM in a computer?</b><br>
+        A. Store files permanently<br>
+        B. Perform arithmetic calculations<br>
+        C. Store temporary data for running programs
+    </div>
+
+    <br>
+    <button onclick="getAnswer3A()">A</button>&nbsp;&nbsp;<button onclick="getAnswer3B()">B</button>&nbsp;&nbsp;<button onclick="getAnswer3C()">C</button>
 </body>
 
 </html>
