@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yes/No Quiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>Yes/No Quiz</h1>
+    <p>Idea: Ask a single yes/no question. User clicks Yes or No. JavaScript checks the answer.</p>
+    <div id="question">
+        1. What does "CPU" stand for?<br>
+        Answer: Central Processing Unit
+    </div>
+    <br>
+    <button onclick="getAnswerYes()">Yes</button>&nbsp;&nbsp;<button onclick="getAnswerNo()">No</button>
+
+    <script>
+        function getAnswerYes() {
+            let answer = document.getElementById("question");
+            answer.textContent = "Correct";
+        }
+        function getAnswerNo() {
+            let answer = document.getElementById("question");
+            answer.textContent = "Incorrect";
+        }
+    </script>
+</body>
+
+</html>
