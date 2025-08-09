@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+.side-bar {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.content {
+    flex: 1;
+    background-color: lightblue;
+}
+.search-box {
+    flex: 1;
+    background-color: lightgrey;
+}
+.side-bar-container {
+    width: 250px;
+    background-color: lightsalmon;
+}
+.nav-menu {
+    height: 58px;
+    width: 100%;
+    padding: 4px 0;
+    background-color: aquamarine;
+}
