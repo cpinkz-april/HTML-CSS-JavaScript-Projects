@@ -15,13 +15,3 @@
 ## 5. TinDog Startup Website
    ![Screenshot 2025-07-01 180510](https://github.com/user-attachments/assets/3ebe28cf-7e0f-4205-a858-b377b7ea5ac3)
 
-## 6. Multiple Questions, One at a Time
-**Idea:** Display a series of multiple-choice questions one at a time.
-
-**Features:**
-<ul>
-   <li>Next Question button</li>
-   <li>Keep score</li>
-   <li>Display final score at the end</li>
-</ul>
-
